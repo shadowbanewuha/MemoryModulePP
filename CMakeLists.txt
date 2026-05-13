@@ -41,6 +41,7 @@ target_include_directories(MemoryModulePP
     PUBLIC
         ${CMAKE_CURRENT_SOURCE_DIR}/MemoryModule
     PRIVATE
+        ${CMAKE_CURRENT_SOURCE_DIR}
         ${CMAKE_CURRENT_SOURCE_DIR}/3rdparty/Detours
         ${CMAKE_CURRENT_SOURCE_DIR}/3rdparty/phnt/include
 )
